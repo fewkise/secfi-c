@@ -1,0 +1,472 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+* li {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  max-width: 100%;
+}
+header nav {
+  display: flex;
+  align-items: center;
+  width: 90vw;
+  justify-content: space-between;
+  height: 12vh;
+}
+header nav ul:nth-child(2) li:nth-child(1) button {
+  background: transparent;
+  border: none;
+}
+header nav ul:nth-child(2) li:nth-child(2) button {
+  background-color: #292A2D;
+  border: none;
+  border-radius: 20px;
+  width: auto;
+  padding: 10px;
+  color: white;
+}
+header nav ul:nth-child(2) li:nth-child(3) button {
+  background: transparent;
+  border: none;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  width: auto;
+  -moz-column-gap: 2vw;
+       column-gap: 2vw;
+  justify-content: space-between;
+}
+header nav ul a {
+  text-decoration: none;
+  color: #292A2D;
+}
+
+.podHeaderAll {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.podHeaderAll .podHeader {
+  display: flex;
+  height: 88vh;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw;
+}
+.podHeaderAll .podHeader .spravaPod {
+  height: 100%;
+  width: 50%;
+  background-image: url("imgs/IMAGE (2).png");
+  background-repeat: no-repeat;
+  background-size: 75%;
+  display: flex;
+  align-items: center;
+  background-position: center;
+}
+.podHeaderAll .podHeader .spravaPod #exerc {
+  width: 25%;
+}
+.podHeaderAll .podHeader .slevaPod {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: auto;
+  row-gap: 3vh;
+  width: 30%;
+}
+.podHeaderAll .podHeader .slevaPod button {
+  background-color: #292A2D;
+  color: white;
+  width: auto;
+  padding: 13px;
+  border-radius: 20px;
+  border: none;
+}
+.podHeaderAll .podHeader .slevaPod #one {
+  font-size: 52px;
+}
+.podHeaderAll .podHeader .slevaPod #two {
+  font-size: 43px;
+}
+.podHeaderAll .podHeader .slevaPod #three {
+  font-size: 19px;
+}
+
+.startAll {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 100%;
+}
+.startAll .start {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  row-gap: 3vh;
+  height: auto;
+  width: 90vw;
+}
+.startAll .start #startS {
+  font-size: 30px;
+}
+.startAll .start #startC {
+  font-size: 19px;
+  width: 50%;
+  text-align: center;
+}
+.startAll .start .cardStart {
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  border: 1px solid #292A2D;
+  row-gap: 2vh;
+  border-radius: 20px;
+}
+.startAll .start .cardStart li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  width: 100%;
+}
+.startAll .start .cardStart ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+  row-gap: 2vh;
+  width: 27vw;
+  padding: 10px;
+}
+.startAll .start .cardStart ul button {
+  padding: 10px;
+  border: none;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 20px;
+  background-color: #004250;
+  color: white;
+}
+.startAll .start .cardStart ul li:nth-child(3) {
+  align-items: center;
+  justify-content: center;
+}
+.startAll .start #nazvStart {
+  align-self: flex-start;
+}
+
+.photoSect {
+  width: 100vw;
+  padding-top: 5rem;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  justify-content: space-around;
+}
+
+.startup {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  max-width: 100%;
+  flex-direction: column;
+  height: 25vh;
+}
+.startup p {
+  font-size: 35px;
+}
+.startup button {
+  border: none;
+  background-color: #FBFBF9;
+  border-radius: 50%;
+  padding: 10px;
+}
+.startup button img {
+  width: 80%;
+}
+
+.eqTaxAll {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  background-color: #FBFBF6;
+}
+.eqTaxAll .eqTax {
+  display: flex;
+  align-items: center;
+  width: 60vw;
+  justify-content: space-between;
+}
+.eqTaxAll .eqTax .eqTaxImg img {
+  width: 100%;
+}
+.eqTaxAll .eqTax .eqTaxSleva {
+  width: 30vw;
+}
+.eqTaxAll .eqTax .eqTaxSleva ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: auto;
+  row-gap: 3vh;
+  width: 100%;
+  flex-direction: column;
+}
+.eqTaxAll .eqTax .eqTaxSleva ul li:nth-child(1) {
+  font-size: 12px;
+  color: #73726C;
+}
+.eqTaxAll .eqTax .eqTaxSleva ul li:nth-child(2) {
+  font-size: 30px;
+  width: 80%;
+}
+.eqTaxAll .eqTax .eqTaxSleva ul li:nth-child(3) button:nth-child(1) {
+  background-color: #292A2D;
+  color: white;
+  width: auto;
+  padding: 10px;
+  border-radius: 20px;
+}
+.eqTaxAll .eqTax .eqTaxSleva ul li:nth-child(3) button:nth-child(2) {
+  background: transparent;
+  border: none;
+}
+.eqTaxAll .eqTax .eqTaxSleva ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  -moz-column-gap: 3vw;
+       column-gap: 3vw;
+}
+
+.eqTaxAllTwo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+}
+.eqTaxAllTwo .eqTaxTwo {
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  width: 60vw;
+  justify-content: space-between;
+}
+.eqTaxAllTwo .eqTaxTwo .eqTaxImg img {
+  width: 100%;
+}
+.eqTaxAllTwo .eqTaxTwo .eqTaxSlevaTwo {
+  width: 30vw;
+}
+.eqTaxAllTwo .eqTaxTwo .eqTaxSlevaTwo ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: auto;
+  row-gap: 3vh;
+  width: 100%;
+  flex-direction: column;
+}
+.eqTaxAllTwo .eqTaxTwo .eqTaxSlevaTwo ul li:nth-child(1) {
+  font-size: 12px;
+  color: #73726C;
+}
+.eqTaxAllTwo .eqTaxTwo .eqTaxSlevaTwo ul li:nth-child(2) {
+  font-size: 30px;
+  width: 70%;
+}
+.eqTaxAllTwo .eqTaxTwo .eqTaxSlevaTwo ul li:nth-child(3) button:nth-child(1) {
+  background-color: #292A2D;
+  color: white;
+  width: auto;
+  padding: 10px;
+  border-radius: 20px;
+}
+.eqTaxAllTwo .eqTaxTwo .eqTaxSlevaTwo ul li:nth-child(3) button:nth-child(2) {
+  background: transparent;
+  border: none;
+}
+.eqTaxAllTwo .eqTaxTwo .eqTaxSlevaTwo ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: auto;
+  -moz-column-gap: 3vw;
+       column-gap: 3vw;
+}
+
+.builtAll {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+}
+.builtAll .built {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60vw;
+}
+.builtAll .built .builtSleva {
+  display: flex;
+  width: 30vw;
+  align-items: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+  align-self: flex-start;
+  height: auto;
+  row-gap: 2vh;
+}
+.builtAll .built .builtSprava ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: auto;
+  row-gap: 2vh;
+  width: 25vw;
+  flex-direction: column;
+}
+.builtAll .built .builtSprava ul li {
+  width: 100%;
+}
+.builtAll .built .builtSprava ul li:nth-child(1) p {
+  font-size: 30px;
+}
+.builtAll .built .builtSprava ul li:nth-child(3) p {
+  font-size: 30px;
+}
+.builtAll .built .builtSprava ul li:nth-child(5) p {
+  font-size: 30px;
+}
+
+#nazvBuilt {
+  font-size: 40px;
+}
+
+#melkoNazv {
+  font-size: 13px;
+  color: #73726C;
+}
+
+.billionsAll {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  background-color: #73726C;
+  max-width: 100%;
+  height: 70vh;
+}
+.billionsAll .billions {
+  width: 60vw;
+  display: flex;
+  height: 40vh;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.billionsAll .billions .billionsSprava {
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: auto;
+  row-gap: 10vh;
+}
+.billionsAll .billions .billionsSprava ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: auto;
+  row-gap: 5vh;
+}
+.billionsAll .billions .billionsSprava ul li:nth-child(1) {
+  font-size: 90px;
+  color: white;
+}
+.billionsAll .billions .billionsSprava ul li {
+  color: white;
+}
+.billionsAll .billions .billionsSprava #billionsMelko {
+  font-size: 13px;
+  color: white;
+}
+
+.clientsSayAll {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  background-color: #313236;
+}
+.clientsSayAll p {
+  color: white;
+}
+.clientsSayAll #bigNazv {
+  font-size: 45px;
+}
+.clientsSayAll .clientsSay {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80vw;
+  flex-direction: column;
+  height: 70vh;
+}
+.clientsSayAll .clientsSay .cardsHolder {
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  width: 80vw;
+  align-items: center;
+}
+.clientsSayAll .clientsSay .cardsHolder .card {
+  width: 23vw;
+  border-radius: 15px;
+  border: 1px solid rgb(116, 116, 116);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.clientsSayAll .clientsSay .cardsHolder .card ul {
+  width: 90%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: space-between;
+}
+.clientsSayAll .clientsSay .cardsHolder .card ul p {
+  color: white;
+}
+.clientsSayAll .clientsSay .cardsHolder .card ul li:nth-child(1) {
+  font-size: 35px;
+}/*# sourceMappingURL=style.css.map */
