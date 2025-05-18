@@ -479,3 +479,160 @@ header {
         }
     }
 }
+.optionsAll {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 100vw;
+    max-width: 100%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    #optionsNazv {
+        font-size: 25px;
+
+    }
+    .options {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 80vw;
+        flex-direction: column;
+        height: auto;
+        row-gap: 5rem;
+        .facesHolder {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            .face:nth-child(2){
+                background-color: #1A5866;
+            }
+            .face:nth-child(3){
+                background-color: #776C62;
+            }
+            .face:nth-child(4){
+                background-color: #99958E;
+            }
+            .face {
+                height: 364px;
+                display: flex;
+                align-items: center;
+                padding-top: 20px;
+                justify-content: space-around;
+                background-color: #879EAD;
+                ul {
+                    align-self: flex-end;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    flex-direction: column;
+                    width: 15vw;
+                    padding-top: 20px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    height: auto;
+                    row-gap: 1rem;
+                    li:nth-child(2){
+                        height: 248px;
+
+                    }
+                    li {
+                        font-size: 30px;
+                        p {
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.footerAll {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    max-width: 100%;
+    height: auto;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    flex-direction: column;
+    row-gap: 2vh;
+    .alotText {
+        width: 80%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        row-gap: 2vh;
+        p {
+            color: #B5B6B3;
+        }
+    }
+    .forimgFooter {
+        width: 80vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        img {
+            width: 120%;
+        }
+    }
+    footer {
+        width: 80vw;
+        align-items: flex-start;
+        justify-content: space-between;
+        height: auto;
+        display: flex;
+
+        .forSocial {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            ul {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                justify-content: space-around;
+                height: auto;
+                row-gap: 2vh;
+                a {
+                    color: #ADB2B7;
+                    text-decoration: none;
+                    
+                }
+                li {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-around;
+                    width: auto;
+                    column-gap: 2vw;
+                }
+            }
+        }
+        .forFour {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-around;
+            width: auto;
+            column-gap: 3vw;
+            ul {
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-around;
+                height: auto;
+                row-gap: 2vh;
+                flex-direction: column;
+                a {
+                    color: #292A2D;
+                    text-decoration: none;
+
+                }
+                p {
+                    color: #004250;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
