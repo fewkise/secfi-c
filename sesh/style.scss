@@ -636,3 +636,399 @@ header {
         }
     }
 }
+.startup button {
+    width: 50px;
+    height: 50px;
+}
+.startup button img {
+    width: 60%;
+    height: 100%;
+}
+@media screen and (max-width:1024px) {
+    .footerAll .forimgFooter img {
+        width: 100%;
+    }
+    .podHeaderAll .podHeader .slevaPod {
+        width: 50%;
+    }
+    .startAll .start .cardStart {
+        width: 70%;
+    }
+    .startAll .start .cardStart ul {
+        width: 90%;
+    }
+    .eqTaxAll .eqTax .eqTaxSleva {
+        width: 50%;
+    }
+    .eqTaxAll .eqTax {
+        width: 80%;
+    }
+    .eqTaxAllTwo .eqTaxTwo {
+        width: 80%;
+    }
+    .eqTaxAllTwo .eqTaxTwo .eqTaxSlevaTwo ul {
+        p {
+            width: 100%;
+        }
+    }
+    .eqTaxAllTwo .eqTaxTwo .eqTaxSlevaTwo ul li:nth-child(2) {
+        width: 100%;
+    }
+    .builtAll .built {
+        width: 80%;
+    }
+    .builtSprava {
+        width: 50%;
+    }
+    .builtAll .built .builtSprava ul {
+        width: 100%;
+    }
+    .billionsAll .billions {
+        width: 80%;
+    }
+    .clientsSayAll .clientsSay .cardsHolder {
+        justify-content: space-between;
+    }
+    .clientsSayAll .clientsSay .cardsHolder .card {
+        width: 30%;
+    }
+    .clientsSayAll .clientsSay {
+        width: 90%;
+    }
+    .clientsSayAll .clientsSay .cardsHolder {
+        width: 100%;
+    }
+    .optionsAll .options .facesHolder .face ul li p {
+        font-size: 25px;
+    }
+    .optionsAll .options {
+        width: 90%;
+    }
+    .optionsAll .options .facesHolder .face ul {
+        width: 18vw;
+    }
+    .footerAll footer {
+        width: 90%;
+    }
+    .footerAll .forimgFooter {
+        width: 90%;
+    }
+    .footerAll .alotText {
+        width: 90%;
+    }
+}
+@media screen and (max-width:768px) {
+    .photoSect {
+        img {
+            width: 80%;
+        }
+    }
+    .podHeaderAll .podHeader {
+        height: auto;
+        row-gap: 3vh;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .podHeaderAll .podHeader .spravaPod {
+        height: 50vh;
+    }
+    .podHeaderAll .podHeader .spravaPod {
+        background-size: 100%;
+    }
+    .podHeaderAll .podHeader .slevaPod #one {
+    font-size: 35px;
+    }
+    .podHeaderAll .podHeader .slevaPod #two {
+        font-size: 30px;
+    }
+    .podHeaderAll .podHeader .spravaPod #exerc {
+        width: 40%;
+    }
+    .podHeaderAll .podHeader .spravaPod {
+        align-items: flex-end;
+    }
+    .eqTaxAll .eqTax {
+        width: 90%;
+        height: auto;
+        row-gap: 2rem;
+        flex-direction: column;
+    }
+    .eqTaxAll .eqTax .eqTaxSleva {
+    width: 90%;
+    text-align: center;
+    }
+    .eqTaxAllTwo .eqTaxTwo {
+        width: 90%;
+        height: auto;
+        row-gap: 2rem;
+        flex-direction: column;
+    }
+    .eqTaxAllTwo .eqTaxTwo .eqTaxSlevaTwo {
+    width: 90%;
+    text-align: center;
+    ul {
+        align-items: center;
+    }
+    }
+    .eqTaxAll .eqTax .eqTaxSleva ul {
+        width: 100%;
+        align-items: center;
+    }
+    .clientsSayAll .clientsSay .cardsHolder .card ul {
+        height: 35vh;
+        row-gap: 2rem;
+        li:nth-child(1){
+            p{
+                font-size: 25px;
+            }
+        }
+    }
+    .optionsAll .options .facesHolder .face ul li p {
+        font-size: 20px;
+    }
+    .optionsAll .options .facesHolder {
+        flex-wrap: wrap;
+        align-items: center;
+        height: auto;
+        row-gap: 2rem;
+    }
+    .optionsAll .options .facesHolder .face ul {
+        width: 35vw;
+    }
+    
+    .footerAll footer {
+         flex-direction: column;
+         height: auto;
+         row-gap: 2rem;
+    }
+    .footerAll footer .forSocial ul {
+        align-items: flex-start;
+    }
+}
+@media screen and (max-width:320px) {
+    .billionsAll .billions {
+        flex-direction: column;
+        .billionsSleva {
+            img {
+                width: 80%;
+            }
+        }
+    }
+    header nav ul:nth-child(1) {
+        li:nth-child(2){
+            display: none;
+        }
+                li:nth-child(3){
+            display: none;
+        }
+                li:nth-child(4){
+            display: none;
+        }
+                li:nth-child(5){
+            display: none;
+        }
+                li:nth-child(6){
+            display: none;
+        }
+
+    }
+    .podHeaderAll .podHeader {
+        flex-direction: column;
+            
+     }
+     .podHeaderAll .podHeader .slevaPod {
+        width: 90%;
+        text-align: center;
+        align-items: center;
+     }
+     .podHeaderAll .podHeader .spravaPod {
+        width: 90%;
+        background-size: 120%;
+     }
+    .startAll .start .cardStart {
+        width: 90%;
+    }
+    .startAll .start #startS {
+        text-align: center;
+    }
+    .startAll .start #startC {
+        width: 90%;
+    }
+    .startup p {
+        text-align: center;
+    }
+    .eqTaxAll .eqTax .eqTaxSleva ul li:nth-child(2) {
+        width: 100%;
+    }
+    .builtAll .built {
+        flex-direction: column;
+    }
+    .builtAll .built .builtSleva {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .builtSprava  {
+        width: 100%;
+    }
+    .billionsAll .billions {
+        height: auto;
+        row-gap: 2rem;
+    }
+    .clientsSayAll .clientsSay .cardsHolder {
+        flex-direction: column;
+        height: auto;
+        row-gap: 2rem;
+    }
+    .clientsSayAll .clientsSay .cardsHolder .card {
+        width: 90%;
+    }
+    .clientsSayAll {
+        height: auto;
+        row-gap: 5rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .clientsSayAll #bigNazv {
+        text-align: center;
+    }
+    .clientsSayAll .clientsSay {
+        height: auto;
+        row-gap: 2rem;
+    }
+    .optionsAll .options .facesHolder .face ul {
+        width: 90%;
+    }
+    .optionsAll .options .facesHolder .face ul li p {
+        font-size: 30px;
+    }
+    .footerAll .alotText {
+        p {
+            font-size: 10px;
+        }
+    }
+}
+@media screen and (max-width:425px) {
+    .billionsAll .billions {
+        flex-direction: column;
+        .billionsSleva {
+            img {
+                width: 80%;
+            }
+        }
+    }
+    header nav ul:nth-child(1) {
+        li:nth-child(2){
+            display: none;
+        }
+                li:nth-child(3){
+            display: none;
+        }
+                li:nth-child(4){
+            display: none;
+        }
+                li:nth-child(5){
+            display: none;
+        }
+                li:nth-child(6){
+            display: none;
+        }
+
+    }
+    .podHeaderAll .podHeader {
+        flex-direction: column;
+            
+     }
+     .podHeaderAll .podHeader .slevaPod {
+        width: 90%;
+        text-align: center;
+        align-items: center;
+     }
+     .podHeaderAll .podHeader .spravaPod {
+        width: 90%;
+        background-size: 100%;
+     }
+    .startAll .start .cardStart {
+        width: 90%;
+    }
+    .startAll .start #startS {
+        text-align: center;
+    }
+    .startAll .start #startC {
+        width: 90%;
+    }
+    .startup p {
+        text-align: center;
+    }
+    .eqTaxAll .eqTax .eqTaxSleva ul li:nth-child(2) {
+        width: 100%;
+    }
+    .builtAll .built {
+        flex-direction: column;
+    }
+    .builtAll .built .builtSleva {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .builtSprava  {
+        width: 100%;
+    }
+    .billionsAll .billions {
+        height: auto;
+        row-gap: 2rem;
+    }
+    .clientsSayAll .clientsSay .cardsHolder {
+        flex-direction: column;
+        height: auto;
+        row-gap: 2rem;
+    }
+    .clientsSayAll .clientsSay .cardsHolder .card {
+        width: 90%;
+    }
+    .clientsSayAll {
+        height: auto;
+        row-gap: 5rem;
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+    .clientsSayAll #bigNazv {
+        text-align: center;
+    }
+    .clientsSayAll .clientsSay {
+        height: auto;
+        row-gap: 2rem;
+    }
+    .optionsAll .options .facesHolder .face ul {
+        width: 90%;
+    }
+    .optionsAll .options .facesHolder .face ul li p {
+        font-size: 30px;
+    }
+    .footerAll .alotText {
+        p {
+            font-size: 10px;
+        }
+    }
+.billionsAll .billions {
+    flex-direction: column;
+}
+.billionsSleva {
+    img {
+        width: 80%;
+    }
+}
+.billionsAll {
+    height: auto;
+    row-gap: 2rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    
+}
+.billionsAll .billions {
+    height: auto;
+}
+.optionsAll .options .facesHolder .face:nth-child(3) {
+    width: 100%;
+}
+}
